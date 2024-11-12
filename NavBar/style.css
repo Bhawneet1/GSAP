@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+  height:100%;
+  width:100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main{
+  height:100%;
+  width:100%;
+  background-image: url(https://images.pexels.com/photos/46160/field-clouds-sky-earth-46160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  color: white;
+}
+
+#nav i{
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
+#nav h2{
+  font-size: 30px;
+}
+
+body{
+  overflow-x:hidden ;
+}
+#full{
+  height: 100%;
+  width: 25%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.547);
+  top:0;
+  /* right:0; */
+  right:-25%;
+  /* Width kai barabar right -ve mai */
+  /* filter:blur(30px); */
+  /* blur the element */
+  backdrop-filter: blur(10px);
+  /* background blur if opacity less than 0.5 */
+  padding: 100px 50px;
+}
+
+#full h4{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#full i{
+  position: absolute;
+  top:5%;
+  right:10%;
+  background-color:white;
+  border-radius: 50%;
+  padding:5px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
