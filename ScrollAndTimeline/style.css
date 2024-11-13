@@ -1,0 +1,250 @@
+@font-face {
+  font-family: china;
+  src: url(./3856NeueMachina.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: china;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+nav h1 {
+  font-size: 25px;
+
+}
+
+nav h1 i {
+  font-size: 25px;
+  rotate: 45deg;
+  font-size: 30px;
+  display: inline-block;
+  /* as inline */
+
+}
+
+nav h4 {
+  font-size: 20px;
+}
+
+nav button {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.center {
+  padding: 40px 50px 0px 50px;
+  padding-bottom: 0px;
+  height: 55%;
+  width: 100%;
+
+  display: flex;
+  
+}
+
+.center-part1 {
+
+  height: 100%;
+  width: 44%;
+  padding-bottom: 0px;
+}
+
+
+.center-part1 h1 {
+  line-height: 1.2;
+  font-size: 70px;
+
+}
+
+.center-part1 p {
+  font-size: 15px;
+  width: 95%;
+  line-height: 1.5;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.center-part1 button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 0px;
+
+}
+
+
+.center-part2 {
+  padding-bottom: 0px;
+  height: 100%;
+  width: 56%;
+  position: relative;
+}
+
+.center-part2 img {
+  /* position: absolute; */
+
+  height: 100%;
+  padding-left: 250px;
+}
+
+.section1bottom {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+.section1bottom img {
+  
+  height: 40px;
+}
+
+
+.section2 .services {
+
+  margin-top: 10px;
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+  
+}
+
+.services h3 {
+  background-color: #9AE975;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.services p {
+  width: 50%;
+  font-size: 15px;
+}
+
+.container {
+  height: 75%;
+  width: 95%;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+}
+
+.elem {
+
+  flex-shrink: 0;
+  /* shring nahi karega */
+  height: 140px;
+  width: 35%;
+  border: 2px solid black;
+  border-radius: 50px;
+  box-shadow: 0px 5px 0px black;
+  padding: 60px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.elem-part1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.elem-part2 {
+  height: 100%;
+  width: 50%;
+}
+
+.elem-part2 img {
+  height: 100%;
+}
+
+.elem-part1 h2 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 5px;
+  width: 70%;
+  background-color: #9AE975;
+}
+
+.elem-part1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0px 5px;
+  gap: 20px;
+}
+
+.elem-part1 h4 i {
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: black;
+
+}
+
+.black .elem-part1 h2 {
+  background-color: white;
+  color: black;
+}
+
+.black .elem-part1 h4 {
+
+  color: white;
+}
+
+.black .elem-part1 h4 i {
+  color: black;
+  background-color: white;
+}
