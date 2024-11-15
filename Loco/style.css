@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+/* parent ko height width nahi deni */
+
+#page1{
+  height:100vh;
+  width:100%;
+  background-color: lightblue;
+}
+
+#page2{
+  height:100vh;
+  width:100%;
+  background-color: rgb(72, 131, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page3{
+  height:100vh;
+  width:100%;
+  background-color: rgb(51, 93, 107);
+
+}
+
+#page2 img{
+  background-size: cover;
+  height: 300px;
+  
+  object-fit: cover;
+}
